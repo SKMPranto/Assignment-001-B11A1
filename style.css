@@ -29,7 +29,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 24px 160px;
+  margin: 24px 178px;
 }
 .nav-title {
   font-size: 32px;
@@ -39,13 +39,59 @@ body {
   background-color: white;
   color: #006a50;
   border: 2px solid #006a50;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: 18px;
   font-weight: bold;
-  width: 116px;
+  width: 139.2px;
   height: 52px;
 }
 .button1:hover {
   background-color: #006a50;
   color: white;
+}
+
+/* Banner section styles */
+
+.banner {
+  width: 1536px;
+  height: 560px;
+  background-color: #c6e4d6;
+  margin: 30px auto;
+  border-radius: 24px;
+}
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 80px;
+  gap: 64px;
+}
+.banner-title {
+  font-size: 24px;
+  color: #6a7972;
+}
+.banner-description {
+  font-size: 77px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.button2 {
+  background-color: #006a50;
+  color: white;
+  border: 2px solid #006a50;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 324px;
+  height: 56px;
+}
+.button2:hover {
+  background-color: white;
+  color: #006a50;
+}
+
+.banner-img {
+  width: 474.03px;
+  height: 400px;
 }
