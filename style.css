@@ -380,3 +380,67 @@ td {
 span {
   padding-left: 10px;
 }
+
+/* Donate section styles */
+
+.donate {
+  width: 100%;
+  height: 464px;
+  margin: 80px 0;
+}
+.donate-title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+.donate-description {
+  font-size: 20px;
+  text-align: center;
+  color: #535353;
+  margin: 30px 0;
+}
+.donate-container {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 30px 0;
+}
+.D-btn {
+  width: 250px;
+  height: 128px;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  border-radius: 16px;
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid rgb(233, 233, 233);
+}
+.D-btn:hover {
+  color: white;
+  background-color: #006a50;
+}
+
+.D-btn01 {
+  background-color: #c6e4d6;
+  border: 1px solid #09a15c;
+}
+.donate-amount {
+  display: flex;
+  justify-content: center;
+}
+#number {
+  width: 1138px;
+  height: 64px;
+  border: none;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+.donate-button {
+  text-align: center;
+}
