@@ -214,7 +214,7 @@ body {
   padding-left: 25px;
   padding-top: 49px;
 }
-.quite2 {
+.quite-2 {
   padding-top: 8px;
 }
 .name {
@@ -443,4 +443,59 @@ span {
 }
 .donate-button {
   text-align: center;
+}
+
+/* Feedback section styles */
+
+.feedback {
+  width: 81%;
+  height: 395px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  margin: 30px auto;
+}
+/* .feedback-container{
+  width: 750px;
+  height: 235px;
+  padding: 30px auto;
+  background-color: #09a15c;
+} */
+.feedback-title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 60px;
+}
+.feedback-description {
+  font-size: 20px;
+  text-align: center;
+  color: #454e45;
+  padding-top: 25px;
+}
+.input-feedback {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+#email {
+  width: 650px;
+  height: 56px;
+  text-align: justify;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid rgb(199, 199, 199);
+  padding-left: 30px;
+}
+.button {
+  width: 150px;
+  height: 56px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #006a50;
+}
+.button:hover {
+  background-color: white;
+  color: #006a50;
 }
