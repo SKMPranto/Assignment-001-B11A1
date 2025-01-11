@@ -101,7 +101,7 @@ body {
 /* Vision of future section styles */
 
 .vision {
-  width: 1536px;
+  width: 81%;
   height: 765px;
   margin: 100px auto;
 }
@@ -197,7 +197,7 @@ body {
 }
 
 .quite-section {
-  width: 1536px;
+  width: 100%;
   height: 256px;
   margin-top: 32px;
   background-color: white;
@@ -233,7 +233,7 @@ body {
 /* Opinion section styles */
 
 .opinion {
-  width: 1536px;
+  width: 81%;
   height: 481px;
   margin: 90px auto;
 }
@@ -250,7 +250,7 @@ td {
   border: 1px solid #c0c0c0;
 }
 .opinion-container {
-  width: 1536px;
+  width: 100%;
   height: 409px;
   background-color: white;
   margin-top: 20px;
@@ -498,4 +498,38 @@ span {
 .button:hover {
   background-color: white;
   color: #006a50;
+}
+
+/* Footer section styles */
+
+footer{
+  width: 100%;
+  height: 226px;
+  background-color: white;
+  margin-top: 80px;
+}
+
+.footer-title{
+  text-align: center;
+  font-size: 32px;
+  margin:30px 0;
+  padding-top: 30px;
+
+}
+.contacts{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-top: 30px;
+  gap: 30px;
+
+}
+
+hr{
+  margin-left: 140px;
+  width: 85%;
+}
+
+.copyright{
+  padding: 10px 50px;
 }
