@@ -95,3 +95,141 @@ body {
   width: 474.03px;
   height: 400px;
 }
+
+/* Pillars of Bangladesh section styles */
+
+/* Vision of future section styles */
+
+.vision {
+  width: 1536px;
+  height: 765px;
+  margin: 100px auto;
+}
+.vision-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.vision-description {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 23px;
+  color: #535353;
+}
+.vision-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.item-content {
+  width: 492.804px;
+  height: 325px;
+  padding: 24px;
+  border-radius: 16px;
+}
+.box1 {
+  background-color: #d5e1f5;
+}
+.box2 {
+  background-color: #c6e4d6;
+}
+.box3 {
+  background-color: #f7ebcf;
+}
+.vision-img {
+  margin-bottom: 24px;
+  width: 64px;
+  height: 64px;
+}
+
+.item-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #3c3a34;
+}
+
+.item-description {
+  font-size: 23px;
+  line-height: 24px;
+  color: #545048;
+  margin-bottom: 50px;
+}
+.button3 {
+  width: 146.4px;
+  height: 41px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  background-color: #5490f5;
+  border: 2px solid #5490f5;
+}
+.button3:hover {
+  color: #5490f5;
+  background-color: white;
+}
+.button4 {
+  width: 146.4px;
+  height: 41px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  background-color: #09a15c;
+  border: 2px solid #09a15c;
+}
+.button4:hover {
+  color: #09a15c;
+  background-color: white;
+}
+.button5 {
+  width: 146.4px;
+  height: 41px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  background-color: #ffc239;
+  border: 2px solid #ffc239;
+}
+.button5:hover {
+  color: #ffc239;
+  background-color: white;
+}
+
+.quite-section {
+  width: 1536px;
+  height: 256px;
+  margin-top: 32px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid gray;
+  background-image: url("./assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 25px 25px;
+}
+.quite {
+  font-size: 20px;
+  line-height: 30px;
+  color: #3e3e3e;
+  padding-left: 25px;
+  padding-top: 49px;
+}
+.quite2 {
+  padding-top: 8px;
+}
+.name {
+  padding-top: 10px;
+  padding-left: 25px;
+  font-size: 35px;
+  color: #3e3e3e;
+  margin-bottom: 10px;
+}
+.name-title {
+  font-size: 23px;
+  padding-left: 25px;
+  color: #6e6e6e;
+}
+
+/* Opinion section styles */
+
+
